@@ -1,0 +1,70 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 3 Nov, 2018, 7:08:50 PM
+    Author     : Harleen Kaur 
+*/
+
+a:link, a:visited ,.button{
+    background-color: #d98c8c;
+    color: #391313;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 70px;
+    font-size: 18px;
+    font-family: Arial Verdana;
+}
+body  {
+    font-size:25px;
+    height: 100%;
+    margin: 0;
+    color: #993333;
+    background-color:#f9ecec;
+    text-align: center;
+}
+
+
+
+
+a:hover, a:active,.button:hover, button:active{
+    background-color: #cc6666;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-item + .flex-item {
+    margin-left: 70px;
+}
+#product {
+    font-family: Arial Veradana;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+#product td, #product th {
+    border: 1px solid #ddd;
+    padding: 2px;
+}
+
+#product tr:nth-child(even){background-color: #f2f2f2;}
+
+#product tr:hover {background-color: #ddd;}
+
+#product th {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+    background-color: grey;
+    color: white;
+}
+
+
+
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>ADMIN</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" type="text/css" href="style.css" media="all" >
+    </head>
+    <body>
+        <h3>Admin page to add items</h3>
+        <form action="AddNewProduct.do" method="POST" style="align-content:center">
+            <h3 style="text-align:center">Add New Product</h3>
+            <table style="margin-left:auto;margin-right:auto">
+                <tr>
+                    <td>Code</td>
+                    <td><input type="text" name="code" required /></td>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" name="name" required /></td>
+                </tr>
+                <tr>
+                    <td>Price</td>
+                    <td>
+                        <input type="number" name="price" step="0.01" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Taxable</td>
+                    <td><input type="checkbox" name="taxable" value="true" ><br></td>
+                </tr>      
+            </table>
+            <input type="submit" value="Add Product"/>
+        </form>  
+        <br>
+        <a href='index.jsp'>Main page</a>
+    </body>
+</html>
